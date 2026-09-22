@@ -57,9 +57,11 @@ body {
   align-items: center;
   background-color: white;
   width: 100vw;
+  position: sticky;
+  top: 0px;
 }
 
-.heade h1 {
+.header h1 {
   margin-left: 10px;
 }
 
@@ -93,4 +95,19 @@ body {
   display: flex;
   position: absolute;
   right: 10px;
+}
+
+.mainbody {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  padding: 10px;
+}
+
+.container {
+  height: 500px;
+  display: grid;
+  width: 100vw;
+  background-color: blue;
+  grid-template-columns: 2fr 2fr;
 }
